@@ -6,6 +6,7 @@ public class Main {
 	// write your code here
 
         Manny manny = new Manny();
+        Star star = new Star();
 
         manny.directionWalking(1); //Choose between 0 and 4
 
@@ -15,7 +16,11 @@ public class Main {
 
         //manny.totalTime(); *No need to call out this method...WHY NOT?!
 
+        star.directionWalking(1); //Choose between 0 and 4
 
+        star.travelDistance(450); //travelDistance() / travelTime = walkingSpeed()
+        star.travelTime(7);
+        star.walkingSpeed();
 
 
 
